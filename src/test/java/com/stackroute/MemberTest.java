@@ -11,6 +11,7 @@ public class MemberTest {
 
     @Before
     public void setUp(){
+
         member = new Member("Harry Potter",30,2500.3);
     }
 
@@ -29,6 +30,8 @@ public class MemberTest {
 
     @Test
     public void testDisplay(){
+
+        member = new Member("Harry", 40.5, 2500.4 );
 
         //act
         boolean expected = false;
